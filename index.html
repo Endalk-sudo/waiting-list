@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CustomerEcho-waiting-list</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Firebase SDK scripts -->
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>CustomerEcho</h1>
+            <p>Collect Customer Feedback Effortlessly. Improve Your Business Instantly.</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="form-container">
+                <h2>Join the Waiting List?</h2>
+                <form id="signup-feedback-form" action="thankyou.html" method="POST">
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <textarea id="feedback-message" placeholder="What features would you like to see? (optional)"></textarea>
+                    <button type="submit">Join & Submit Feedback</button>
+                </form>
+                
+                <div class="benefits-section">
+                    <h3>Benefits of using CustomerEcho</h3>
+                    <ul>
+                        <li>Gain Real-Time Customer Insights</li>
+                        <li>Boost Customer Retention & Satisfaction</li>
+                        <li>Increase Revenue by Meeting Market Demands</li>
+                        <li>Stay Ahead of Competitors</li>
+                        <li>Direct Connection to Your Customers</li>
+                        <li>Improve Products and Services Without Added Costs</li>
+                        <li>Make Smarter Business Decisions with Confidence</li>
+                        <li>Track Trends and Feedback Over Time</li>
+                        <li>Increase Revenue with Customer-Driven Improvements</li>
+                    </ul>
+                </div>
+
+                <div class="how-it-works-section">
+                    <h3>How It Works</h3>
+                    <ul>
+                        <li>Generate a QR Code</li>
+                        <li>Collect Feedback in Real Time</li>
+                        <li>Get Actionable Insights</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 CustomerEcho</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
